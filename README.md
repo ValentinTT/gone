@@ -36,21 +36,22 @@
   - `-l, --layout`: Specify date format (`dmy`, `mdy`, `ymd`). Both dates must be in the same format.
 
     - `l="dmy"`: `dd-mm-yyyy` (default)
-
-      > [!NOTE]
-      >
-      > If you ommit the year in the `dmy` layout it takes the current year.
-
     - `l="mdy"`: `mm-dd-yyyy`
     - `l="ymd"`: `yyyy-mm-dd`
-      > [!IMPORTANT]
-      >
-      > If you use any of this two formats the year is required. Otherwise it fails.
+
+
+> [!NOTE]
+>
+> If you ommit the year in the `dmy` layout it takes the current year.
+
+> [!IMPORTANT]
+>
+> If you use `ymd` or `mdy` the year is required. Otherwise it fails.
 
   - `-t, --today`: Compare with today's date.
-    > [!IMPORTANT]
-    >
-    > If you pass more than one parameter it fails.
+> [!IMPORTANT]
+>
+> If you pass more than one parameter it fails.
 
 ### Installation
 
