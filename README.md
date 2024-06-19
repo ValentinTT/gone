@@ -58,7 +58,7 @@
 1. Clone the repository:
 
 ```sh
-  git clone https://github.com/ValentinTT/Gone.git
+  git clone https://github.com/ValentinTT/gone.git
 ```
 
 2. Build and install the project: make sure to have go added to your local path.
@@ -76,7 +76,7 @@
 
 ## Why I did this project?
 
-The reason why I create this project is to learn about go. I think this cli project is small enough to focus in the basic of the language before diving into backend development.
+The reason why I create this project is to learn golang. I think this cli project is small enough to focus on the basics of the language before diving into backend development.
 
 ## Author
 
